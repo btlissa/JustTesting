@@ -38,6 +38,9 @@ class ViewController: UIViewController, TestDelegate {
     func recieveMessageFromScnView(Msg: String) {
         lbl.text = Msg
     }
+    func doNothingFunc(){
+        
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc : ScnViewController = segue.destination as! ScnViewController
         vc.delegate = self
