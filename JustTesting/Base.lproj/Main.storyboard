@@ -26,8 +26,16 @@
                                     <action selector="cancelPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZx-Ds-Yji"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWi-a7-TJR">
+                                <rect key="frame" x="133" y="356" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51767531119999999" green="1" blue="0.97013753049999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IWi-a7-TJR" secondAttribute="trailing" constant="196" id="MMy-7u-MLo"/>
+                            <constraint firstItem="IWi-a7-TJR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="euV-uW-7Bm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="wdQ-aA-pk8">
